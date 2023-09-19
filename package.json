@@ -1,0 +1,33 @@
+{
+  "name": "projectapi",
+  "version": "1.0.0",
+  "description": "My whatsapp API",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon -x node app.js || (sleep 10 && touch app.js)",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp-api",
+    "node.js"
+  ],
+  "author": "putrodwi31",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "express-session": "^1.17.3",
+    "express-validator": "^7.0.1",
+    "http": "^0.0.1-security",
+    "mongoose": "^7.4.1",
+    "mysql": "^2.18.1",
+    "node-cron": "^3.0.2",
+    "qrcode": "^1.5.3",
+    "qrcode-terminal": "^0.12.0",
+    "socket.io": "^4.6.1",
+    "whatsapp-web.js": "^1.22.1",
+    "wwebjs-mongo": "^1.1.0"
+  }
+}
